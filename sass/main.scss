@@ -1,0 +1,139 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #2B2124;
+}
+
+.todo{
+   
+    padding-top: 5rem;
+    width: 100%;
+   
+}
+.todo .todo-input{
+
+  display: flex;
+  align-items: center;
+      
+}
+
+.todo .todo-input-area{
+    margin-bottom: 2rem;
+   display: grid;
+   grid-template-columns: 700px 80px;
+   @media only screen and (max-width: 992px) {
+        grid-template-columns: 600px 80px;
+  }
+  @media only screen and (max-width: 768px) {
+
+    grid-template-columns: 500px 80px;
+}
+@media only screen and (max-width: 576px) {
+
+    grid-template-columns: 400px 80px;
+   }
+   @media only screen and (max-width: 476px) {
+
+    grid-template-columns: 300px 80px;
+   }
+}
+
+
+#viewHere{
+    background: #2A2E2D;
+   padding: 1rem 1rem; 
+    color: #F8F2F4;
+    font-size: 18px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top: 0.5px solid #8C7D82;
+    border-bottom: 0.5px solid #8C7D82;
+    border-left: 0.5px solid #8C7D82;
+    border-right: 0.5px solid #8C7D82;
+}
+
+
+ 
+#add{
+    padding: 1rem 1rem;
+    background: #63575B;
+    border-left: 1px solid #616B69;
+    font-size: 18px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top: 0.5px solid #8C7D82;
+    border-bottom: 0.5px solid #8C7D82;
+    border-right: 0.5px solid #8C7D82;
+}
+#add i{
+    background: none;
+}
+.todo .todo-result{
+    display: flex;
+    justify-content: center;
+}
+
+.todo .uplist .list{
+   
+    padding: 2rem 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 700px 80px;
+    @media only screen and (max-width: 992px) {
+        grid-template-columns: 600px 80px;
+  }
+   @media only screen and (max-width: 768px) {
+
+    grid-template-columns: 500px 80px;
+   }
+   @media only screen and (max-width: 576px) {
+
+    grid-template-columns: 400px 80px;
+   }
+   @media only screen and (max-width: 476px) {
+
+    grid-template-columns: 300px 80px;
+   }
+}
+
+.todo .uplist .list li{
+    border-top: 0.5px solid #8C7D82;
+    border-bottom: 0.5px solid #8C7D82;
+    border-left: 0.5px solid #8C7D82;
+    color: #F8F2F4;
+    background: #2A2E2D;    
+   padding: 1rem;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    outline: none;
+    margin: 1rem 0;
+}
+.todo .uplist .list span{
+ 
+    color: #F8F2F4;
+    background: #2A2E2D;
+    border-left: 1px solid #616B69;
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin: 1rem 0;
+    border-top: 0.5px solid #8C7D82;
+    border-bottom: 0.5px solid #8C7D82;
+    border-right: 0.5px solid #8C7D82;
+}
+
+.todo .uplist .list a{
+  
+  margin: 0 0.7rem;
+  font-size: 18px;
+}
+
+.todo .uplist .list a i{
+    font-size: 18px;
+   color: #ffffff;
+   
+}
+
